@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        nav{
+            background-color: black;
+        }
+        .container label {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 17px;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="default-nav-row">
+        <a href="index.html"><img border="0" alt="logo" src="photos/diablito white.png" width="60" height="60"></a>
+</nav>
+<h2>Send us a Line:</h2>
+<p>
+    or just give us a call: +49 01763876243
+</p>
+    <div class="container">
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="fname" name="name" placeholder="Your name pls.">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="send me a line" style="height:200px"></textarea>
+            <label for="email">Please write your email adress:</label>
+            <input type="email" placeholder="your email pls.">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

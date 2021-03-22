@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <title>CSS Diego Final</title>
+       <link rel="stylesheet"href="style.css"> 
+      <style>
+          nav{
+              margin-top: 0px;
+              font-size: 20px;
+          }
+          ul{
+              list-style-type: none;
+              margin-top: 0%;
+              margin-bottom:.2%;
+              padding: 0;
+              overflow:auto;
+              background-color:black;
+              
+              }
+            li{
+                float: left;
+            }
+            li a{
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 2px 5px;
+                text-decoration: none;
+            }
+            .flex-container{
+                display: flex;
+                margin: 0;
+                padding: 0;
+
+            }
+            .flex-item1{
+                font-size: 35px; 
+                padding-right: 3px;
+                
+            }
+                
+            .flex-item2{
+                
+                width: auto;
+            }
+            
+
+            .flex-container2{
+                display: flex;
+                align-items:center;
+                flex-direction: column;
+                background-color: black;
+                margin: 10px;
+                padding: 0;
+            }
+            .flex-item3{
+                
+                color: white;
+                font-size: 40px;
+                padding: bottom 15px;
+                padding-top: 15px;
+            }
+            
+            .flex-item4{
+                padding-bottom: 15px;
+            }
+            .flex-container3{
+                display: flex;
+                background-color: white;
+                margin: 0;
+                padding: 0;
+
+            }
+           .flex-item6{
+               font-size: 40px;
+               padding-left: 15px;
+               flex: 1;
+               
+           }
+           .flex-item5{
+            flex: 1;
+            width: auto;
+               
+           }
+           
+           
+            .footer a{
+                background-color: black;
+                text-align: center;
+                font-size: 25px;
+                display: block;
+                text-decoration: none;
+                color: white;
+                margin-top: 0%;   
+            }
+            @media (max-width:1080px){
+                .flex-container{
+                    text-align: center;
+                    flex-direction: column-reverse;
+                    justify-content: center;
+            }
+
+            @media (max-width:1080px){
+                .flex-container3{
+                    text-align: center;
+                    flex-direction: column;
+                    
+        }
+            @media (max-width:580px){
+                .flex-container{
+                    text-align: center;
+                    flex-direction: column-reverse;
+                    margin: 0 10px;
+                    justify-content: center;
+                }
+
+                
+      </style>
+   </head>
+   <body>
+        <div id="logo" class="logo" >
+            <a href="index.html"><img border="0" alt="logo" src="photos/diablito black.png" width="60" height="60"></a>
+        </div>
+        <section id="header-navigation"></section>
+        <nav>
+            <ul class="main-ul">
+                <li>
+                    <a href="#section2">reel</a>
+                </li>
+                <li>
+                    <a href="contact.html">contact</a>
+                </li>
+            </ul>
+        </nav>
+     </section>
+     <section id="section1">
+     <div class="flex-container">   
+             <div class="flex-item1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, s
+                unt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>    
+            <div class="flex-item2">
+             <img class="hero" src="photos/pedal flow.jpg" alt="hero image" width="500" height="500">
+            </div>
+     </div>
+    </section>
+     <section id="section2">
+     <div class="flex-container2">
+        <div class="flex-item3"> My Work</div>
+        <div class="flex-item4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/50X8j1FnySU" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+            gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+     </div>
+    </section>
+     <section id="section3">
+         <div class="flex-container3">
+            <div class=flex-item5">
+            <img class="pedal" src="photos/off to London.jpg" alt="photo bio" width="300" height="300">
+            </div>
+            <div class=flex-item6>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat. 
+            </div>
+        </div>       
+    </section>
+    <section id="footer-navigation">
+        <nav class="footer">
+                <a href="contact.html">tell us what's in your mind</a>
+        </nav>
+    </section>
+</body> 
+</html>
